@@ -19,7 +19,7 @@ int main()
         printf("Remainder:%d", reminder);
         }
         else 
-        printf("Minimum Cost of Apple is 5 Rupees.");}
+        printf("Minimum Cost of Orange is 5 Rupees.");}
     else
     printf("You do not have more than 2500 Rupees");
     return 0;
