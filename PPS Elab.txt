@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+    int amtgvn, bill, quotient, reminder;
+    scanf("%d", &amtgvn);
+    scanf("%d", &bill);
+    if(bill>=5&&bill<=2500){
+        if (amtgvn<bill){
+            printf("Amount given is less than bill Amount!");
+        }
+        else if(amtgvn>=5&&amtgvn<=2500){
+            
+        quotient = amtgvn/bill;
+    
+        reminder = amtgvn % bill;
+    
+        printf("Quotient:%d\n", quotient);
+        printf("Remainder:%d", reminder);
+        }
+        else 
+        printf("Minimum Cost of Apple is 5 Rupees.");}
+    else
+    printf("You do not have more than 2500 Rupees");
+    return 0;
+}
